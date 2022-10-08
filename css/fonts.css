@@ -18,3 +18,10 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("/fonts/Montserrat-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

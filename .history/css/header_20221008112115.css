@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    color: white;
+    background-color: #909090;
+}
+
+header {
+    padding-top:35px;
+}
+
+header img {
+    display: inline;
+}
+
+header form {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.main-nav {
+    list-style: none;
+    padding-left: 0;
+    margin: auto 0;
+}
+
+.main-nav li {
+    display: inline;
+    padding-right: 40px;
+}
+
+.main-nav li:last-child {
+    padding-right: 0;
+}
+
+.main-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.search-block {
+    display: flex;
+    margin: auto 0;
+    align-items: center;
+}
+
+.login-block {
+    margin: auto 0;
+}
+
+.login-block a{
+    text-decoration: none;
+    font-family: "Montserrat-Bold", Arial, sans-serif;
+    color: white;
+    margin-right: 30px;
+    padding: 10px 20px;
+}
+
+.current-menu-item {
+    background-color: #E91E63;
+    border-radius: 40px;
+}
+
+div .register-button {
+    background-color: #C5CAE9;
+    border-radius: 40px;
+    color: #304FFE;
+}
+
+.search-block form {
+    margin-right: 15px;
+}
+
+.search-block img:first-of-type {
+    margin-right: 20px;
+}
+
+.img-search {
+    align-self: center;
+}
+
+.search-field {
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #303030;
+    border: none;
+    border-radius: 0.6rem;
+}
+
+.search-field:focus {
+    outline:0;
+}

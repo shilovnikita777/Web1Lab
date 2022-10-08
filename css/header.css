@@ -10,6 +10,11 @@ body {
 
 header {
     padding-top:35px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 header img {
@@ -18,13 +23,6 @@ header img {
 
 header form {
     display: inline-block;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .main-nav {
@@ -49,10 +47,14 @@ header form {
 }
 
 .search-block {
+    display: flex;
     margin: auto 0;
+    align-items: center;
 }
 
 .login-block {
+    display: flex;
+    align-items: center;
     margin: auto 0;
 }
 
@@ -79,8 +81,9 @@ div .register-button {
     margin-right: 15px;
 }
 
-.search-block img:first-of-type {
-    margin-right: 20px;
+.img-search {
+    padding-right: 20px;
+    border-right: 1px solid white;
 }
 
 .search-field {

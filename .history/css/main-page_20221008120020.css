@@ -1,0 +1,15 @@
+.main-page {
+    background-image: url("/img/Bitmap.png");
+    background-size: cover;
+}
+
+.about-film {
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    margin-top: 350px;
+    margin-left: 50px;
+}
+
+.fli
