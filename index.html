@@ -7,36 +7,124 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <div class="main-page">
-        <header>
-                <div class="header-logo">
-                    <img src="img/logotype.png" alt="TVideo" width="80">
-                </div>
-                <ul class="main-nav">
-                    <li><a href="#" class="current-menu-item">Главная</a></li>
-                    <li><a href="#">Фильмы</a></li>
-                </ul>
-                <div class="search-block">
-                    <form action="" method="get">
-                        <input name="s" placeholder="Поиск" type="search" class="search-field">
-                    </form>
-                    <img class="img-search" src="img/search.png" alt="Go" width="30">
-                </div>
-                <div class="login-block">
-                    <a href="#">Вход</a>
-                    <a href="#" class="register-button">Регистрация</a>
-                    <img src="img/settings.png" alt="settings" height="24">
-                </div>
-        </header>
+        <div class="gradient">
+
+            <header>
+                    <div class="header-logo">
+                        <img src="img/logotype.png" alt="TVideo" width="80">
+                    </div>
+                    <ul class="main-nav">
+                        <li><a href="#" class="current-menu-item">Главная</a></li>
+                        <li><a href="#">Фильмы</a></li>
+                    </ul>
+                    <div class="search-block">
+                        <form action="" method="get">
+                            <input name="s" placeholder="Поиск" type="search" class="search-field">
+                        </form>
+                        <img class="img-search" src="img/search.png" alt="Go" width="30">
+                    </div>
+                    <div class="login-block">
+                        <a href="#">Вход</a>
+                        <a href="#" class="register-button">Регистрация</a>
+                        <img src="img/settings.png" alt="settings" height="24">
+                    </div>
+            </header>
+        
         <main>
             <div class="about-film">
                 <p class="film-name">Journey 2: The Mysterious Island</p>
                 <h4 class="translate-name">Путешествие 2:<br>Таинственный остров</h4>
                 <p class="date">На экранах с 19.01.12</p>
             </div>
+        </div>
+
+            <div class="titanic">
+                <div class="container-card-about">
+                    <div class="titanic-header">
+                        <p class="original-titanic-name">Titanic</p>
+                        <h3 class="titanic-name">Титаник</h3>
+                        <div class="titanic-stars">
+                            <img src="/img/star.png" alt="star" width="22">
+                            <img src="/img/star.png" alt="star" width="22">
+                            <img src="/img/star.png" alt="star" width="22">
+                            <img src="/img/star.png" alt="star" width="22">
+                            <img src="/img/star.png" alt="star" width="22">
+                            <p class="rating">5.0</p>
+                            <p>3ч 14мин</p>
+                        </div>
+                    </div>
+                    <p class="titanic-about">Запретная любовь на фоне гибели легендарного лайнера.<br>Великий фильм-катастрофа — в отреставрированной версии</p>
+                    <div class="titanic-btns">
+                        <a class="watch-trailer">Трейлер</a>
+                        <button class="watch-film-btn">Смотреть фильм</button>
+                    </div>
+                </div>
+                <img src="/img/titanic.png" height="400px" width="270px">
+            </div>
         </main>
     </div>
+
+    <div class="popular-films">
+        <div class="popular-about">
+            <h3 class="popular-h">Популярные</h3>
+            <h3 class="films-h">Фильмы</h3>
+            <p class="popular-description">Самое интересное на сегодня. Это может вам понравиться!</p>
+        </div>
+        <div class="film-card">
+            <div class="rectangle-picture">
+                <img src="/img/lord_ring.png" alt="The lord of the ring" width="300">
+                <p class="card-film-name">Властелин колец:<br>
+                    Возвращение короля</p>
+            </div>
+        </div>
+        <div class="film-card">
+            <div class="rectangle-picture">
+                <img src="/img/pirates.png" alt="pirates" width="300">
+                <p class="card-film-name">Пираты Карибского моря:<br>
+                    Проклятие чёрной жемчужины</p>
+            </div>
+        </div>
+        <div class="film-card">
+            <div class="rectangle-picture">
+                <img src="/img/go_back.png" alt="Go back" width="300">
+                <p class="card-film-name future">Назад в будущее</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer>
+        <div>
+            <img src="img/Logo.png" alt="TVideo" width="90">
+            <p class="info">© TVideo 2022</p>
+        </div>
+        <div>
+            <p class="list-name">Связь</p>
+            <ul>
+                <li><a href="#">Вакансии</a></li>
+                <li><a href="#">Реклама</a></li>
+                <li><a href="#">Служба поддержки</a></li>
+            </ul>
+        </div>
+        <div>
+            <p class="list-name">Условия</p>
+            <ul>
+                <li><a href="#">Соглашение</a></li>
+                <li><a href="#">Конфиденциальность</a></li>
+                <li><a href="#">Для правообладателей</a></li>
+            </ul>
+        </div>
+        <div>
+            <img src="img/social/vk.png" alt="VK"  width="50" class="social-button">
+            <img src="img/social/telegram.png" alt="telegram" width="50"class="social-button">
+            <img src="img/social/whatsapp.png" alt="whatsapp" width="50" class="social-button">
+            <img src="img/social/instagram.png" alt="instagram" width="50" class="social-button">
+        </div>
+    </footer>
 </body>
 </html>

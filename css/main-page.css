@@ -1,20 +1,149 @@
 .main-page {
     background-image: url("/img/bitmap.jpg");
     background-size: cover;
-    
+    height: 1200px;
 }
+
+.watch-film-btn {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    margin: auto 0;
+    background-color: #E91E63;
+    border-radius: 40px;
+    padding: 10px 30px;
+    border: 0;
+    color: white;
+}
+
 .about-film {
     width: 1200px;
     margin: 0 auto;
     font-family: "Montserrat-Medium", Arial, sans-serif;
     font-weight: 100;
     line-height: 44px;
-    margin-top: 350px;
-    font-size: 36px;
+    margin-top: 184px;
+    font-size: 24px;
+    margin-bottom: 64px;
 }
 
 .translate-name {
     font-weight: 1000;
-    font-size: 78px;
-    line-height: 95px;
+    font-size: 64px;
+    line-height: 70px;
 }
+
+.titanic {
+    padding: 10px 40px;
+    width: 750px;
+    height: 440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: #303030;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.titanic-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titanic-name {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.titanic-stars {
+    display: flex;
+    gap: 8px;
+}
+
+.rating {
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-right: 15px;
+    border-right: 1px solid #303030;
+}
+
+.container-card-about {
+    width: 450px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.titanic-about {
+    width: 425px
+}
+
+.titanic img {
+    align-self: center;
+}
+
+.titanic-btns {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+.watch-trailer {
+    line-height: 40px;
+    color: #304FFE;
+    font-weight: 800;
+}
+
+.popular-films {
+    width: 1200px;
+    margin: auto 0;
+    display: flex;
+    gap: 30px
+}
+
+.popular-about {
+    font-family: "Montserrat-Bold", Arial, sans-serif;
+    color: #303030;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+    gap: 20px;
+}
+
+.films-h {
+    color: #304FFE; 
+}
+
+.popular-description {
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    width: 280px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 125%;
+}
+
+.rectangle-picture {
+    text-align: center;
+    background-color: #CACACA;
+    border: 1px solid #CACACA;
+    height: 485px;
+    border-radius: 42px;
+    vertical-align: middle;
+}
+
+.card-film-name {
+    color: black
+}
+
+.future {
+    line-height: 250%;
+}
+
+
