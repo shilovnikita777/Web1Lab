@@ -98,11 +98,20 @@
     font-weight: 800;
 }
 
-.popular-films {
-    width: 1200px;
-    margin: auto 0;
+.wide-container {
+    background-image: url("/img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.popular-films-and-subscribes {
+    width: 1300px;
+    margin: 0 auto;
     display: flex;
-    gap: 30px
+    gap: 30px;
+    padding-bottom: 2000px;
+    padding-top: 200px;
 }
 
 .popular-about {
@@ -139,11 +148,14 @@
 }
 
 .card-film-name {
-    color: black
+    color: black;
+    font-size: 16px;
 }
 
 .future {
     line-height: 250%;
 }
+
+
 
 
