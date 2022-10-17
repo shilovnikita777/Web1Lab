@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Site</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/about-book.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/like-card.css">
+  <link rel="stylesheet" href="css/new-arrive.css">
+  <link rel="stylesheet" href="css/news.css">
+  <link rel="stylesheet" href="css/popular.css">
+  <link rel="stylesheet" href="css/book-card.css">
+  <link rel="stylesheet" href="./css/register.css">
+  
+
+</head>
+<body>
+  <div class="header">
+    <div class = "container">
+        <div class="header-logo">
+            <a href="/main-page.html"><img src="/img/logo.png" alt="Логотип" width="auto" height="90"></a>
+        </div>
+        <ul class="header-nav">
+            <li><a href="/main-page.html">Каталог</a></li>
+            <li><a href="/card-page.html">Избранное</a></li>
+            <li><a href="/card-page.html">Корзина</a></li>
+        </ul>
+        <div class = "search-container">
+            <input type="text" class="search" placeholder="Поиск книг">
+            <img src="/img/search.png" alt="icon">
+        </div>
+        <a href="/auth-page.html" class = "sign-in-btn">Войти</a>
+    </div>
+</div>
+  <div class="picture-man">
+    <div class="login-page">
+      <div class="form">
+        <form class="login-form">
+          <input type="text" placeholder="Имя пользователя"/>
+          <input type="text" placeholder="Почта"/>
+          <input type="password" placeholder="Пароль"/>
+          <input type="password" placeholder="Повторите пароль"/>
+          <form>
+            <p class="choice">Укажите ваш пол</p>
+            <div class="radio-buttons">
+              <div>
+                <input class="input-radio" type="radio" id="contactChoice1"
+                name="contact" value="email">
+                <label class="radio-button" for="contactChoice1">Мужчина</label>
+              </div>
+              <div>
+                <input class="input-radio" type="radio" id="contactChoice2"
+                name="contact" value="phone">
+                <label class="radio-button" for="contactChoice2">Женщина</label>
+              </div>
+            </div>
+          </form>
+          <label class="checkRobot">
+            <input class="checkRobot" type="checkbox" name="happy" value="yes">Я не робот
+          </label>
+          <button>Создать</button>
+          <p class="message">Уже зарегестрированы? <a href="auth-page.html">Войти</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
